@@ -1,0 +1,8 @@
+pages\LogInPage.class
+core\MethodsFact.class
+core\BrowserFact.class
+api\PdfFillerApiCalls.class
+pages\LogInPage$1.class
+pages\MainPage$1.class
+pages\FormsPage.class
+pages\MainPage.class

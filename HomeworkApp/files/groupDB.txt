@@ -1,0 +1,5 @@
+Group ID: 1
+Group size: 1
+Group tutors: 1
+Group subjects: 1
+-------------------------------

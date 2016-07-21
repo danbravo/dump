@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [API Test Suite]">
+  <test name="Verify POST response">
+    <classes>
+      <class name="apiTests.CreateDocument"/>
+    </classes>
+  </test> <!-- Verify POST response -->
+  <test name="Verify DELETE response">
+    <classes>
+      <class name="apiTests.DeleteDocument"/>
+    </classes>
+  </test> <!-- Verify DELETE response -->
+  <test name="Verify POST response(failed)">
+    <classes>
+      <class name="apiTests.DeleteDocument">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- apiTests.DeleteDocument -->
+      <class name="apiTests.CreateDocument">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="clickLogInBtn"/>
+          <include name="verifyDocCreation"/>
+          <include name="clickAllDocsMenu"/>
+        </methods>
+      </class> <!-- apiTests.CreateDocument -->
+    </classes>
+  </test> <!-- Verify POST response(failed) -->
+  <test name="Verify DELETE response(failed)">
+    <classes>
+      <class name="apiTests.DeleteDocument">
+        <methods>
+          <include name="setUp"/>
+          <include name="deleteDocument"/>
+          <include name="getDocs"/>
+          <include name="verifyDeletedDoc"/>
+          <include name="getNewDocs"/>
+        </methods>
+      </class> <!-- apiTests.DeleteDocument -->
+      <class name="apiTests.CreateDocument">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- apiTests.CreateDocument -->
+    </classes>
+  </test> <!-- Verify DELETE response(failed) -->
+</suite> <!-- Failed suite [API Test Suite] -->

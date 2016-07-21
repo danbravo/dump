@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1468948338027" stop="1468948363629" version="1.4.22" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>API Test Suite : Verify GET response</name>
+    <title>API Test Suite : Verify GET response</title>
+    <test-cases>
+        <test-case start="1468948341383" stop="1468948346250" status="passed">
+            <name>getDocs</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="Getting docs (API call), verifying the doc quantity (Web)"/>
+                <label name="feature" value="GET API request"/>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="72696@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1468948346354" stop="1468948352459" status="passed">
+            <name>openMainPage</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="Getting docs (API call), verifying the doc quantity (Web)"/>
+                <label name="feature" value="GET API request"/>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="72696@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1468948352504" stop="1468948355445" status="passed">
+            <name>openLogInPage</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="Getting docs (API call), verifying the doc quantity (Web)"/>
+                <label name="feature" value="GET API request"/>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="72696@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1468948355459" stop="1468948355801" status="passed">
+            <name>typeEmail[testtask@test.test]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="Getting docs (API call), verifying the doc quantity (Web)"/>
+                <label name="feature" value="GET API request"/>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="72696@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1468948355805" stop="1468948356044" status="passed">
+            <name>typePass[qwe1rty2]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="Getting docs (API call), verifying the doc quantity (Web)"/>
+                <label name="feature" value="GET API request"/>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="72696@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1468948356049" stop="1468948361448" status="passed">
+            <name>clickLogInBtn</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="Getting docs (API call), verifying the doc quantity (Web)"/>
+                <label name="feature" value="GET API request"/>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="72696@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1468948361455" stop="1468948361689" status="passed">
+            <name>clickAllDocsMenu</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="Getting docs (API call), verifying the doc quantity (Web)"/>
+                <label name="feature" value="GET API request"/>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="72696@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1468948361693" stop="1468948361999" status="passed">
+            <name>verifyDocs</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="Getting docs (API call), verifying the doc quantity (Web)"/>
+                <label name="feature" value="GET API request"/>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="72696@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

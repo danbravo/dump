@@ -1,0 +1,65 @@
+{
+  "uid" : "cff9eccc28a6b04f",
+  "name" : "verEngLangBtn",
+  "title" : "Ver eng lang btn",
+  "time" : {
+    "start" : 1469105904695,
+    "stop" : 1469105907082,
+    "duration" : 2387
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "8d22796d68e99f85",
+    "name" : "SomeSuite : Footer Language buttons test",
+    "title" : "SomeSuite : Footer Language buttons test"
+  },
+  "steps" : [ {
+    "name" : "clickEnglishLangBtn",
+    "title" : "Pressing English Language Button",
+    "time" : {
+      "start" : 1469105904698,
+      "stop" : 1469105907082,
+      "duration" : 2384
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "10792@SATTVA.main(1)"
+  }, {
+    "name" : "story",
+    "value" : "Changing an verifying all language option buttons"
+  }, {
+    "name" : "suite-name",
+    "value" : "SomeSuite : Footer Language buttons test"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "SomeSuite : Footer Language buttons test"
+  }, {
+    "name" : "host",
+    "value" : "SATTVA"
+  } ],
+  "parameters" : [ ]
+}

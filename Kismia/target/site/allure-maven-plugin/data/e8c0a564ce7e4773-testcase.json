@@ -1,0 +1,62 @@
+{
+  "uid" : "e8c0a564ce7e4773",
+  "name" : "typeEmail[danbravo1@mail.ru]",
+  "title" : "Type email [danbravo1@mail.ru]",
+  "time" : {
+    "start" : 1469105873995,
+    "stop" : 1469105875020,
+    "duration" : 1025
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "c44066ab5bde1681",
+    "name" : "SomeSuite : Valid login test",
+    "title" : "SomeSuite : Valid login test"
+  },
+  "steps" : [ {
+    "name" : "typeEmail[danbravo1@mail.ru]",
+    "title" : "Typing email in: danbravo1@mail.ru",
+    "time" : {
+      "start" : 1469105874032,
+      "stop" : 1469105875019,
+      "duration" : 987
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-title",
+    "value" : "SomeSuite : Valid login test"
+  }, {
+    "name" : "host",
+    "value" : "SATTVA"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "SomeSuite : Valid login test"
+  }, {
+    "name" : "thread",
+    "value" : "10792@SATTVA.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  } ],
+  "parameters" : [ ]
+}

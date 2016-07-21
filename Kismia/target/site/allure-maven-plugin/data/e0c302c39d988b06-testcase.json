@@ -1,0 +1,65 @@
+{
+  "uid" : "e0c302c39d988b06",
+  "name" : "openMainPage",
+  "title" : "Open main page",
+  "time" : {
+    "start" : 1469105901567,
+    "stop" : 1469105904693,
+    "duration" : 3126
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "8d22796d68e99f85",
+    "name" : "SomeSuite : Footer Language buttons test",
+    "title" : "SomeSuite : Footer Language buttons test"
+  },
+  "steps" : [ {
+    "name" : "navMain",
+    "title" : "Opening main page",
+    "time" : {
+      "start" : 1469105901570,
+      "stop" : 1469105904692,
+      "duration" : 3122
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-title",
+    "value" : "SomeSuite : Footer Language buttons test"
+  }, {
+    "name" : "thread",
+    "value" : "10792@SATTVA.main(1)"
+  }, {
+    "name" : "host",
+    "value" : "SATTVA"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-name",
+    "value" : "SomeSuite : Footer Language buttons test"
+  }, {
+    "name" : "story",
+    "value" : "Changing an verifying all language option buttons"
+  } ],
+  "parameters" : [ ]
+}

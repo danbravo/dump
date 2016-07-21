@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="API Test Suite" verbose="1" parallel="false">
+    <test name="Verify GET response">
+        <classes>
+            <class name="apiTests.GetDocuments"/>
+        </classes>
+    </test>
+    <!--<test name="Verify POST response">-->
+        <!--<classes>-->
+            <!--<class name="apiTests.CreateDocument"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="Verify DELETE response">-->
+        <!--<classes>-->
+            <!--<class name="apiTests.DeleteDocument"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+</suite>

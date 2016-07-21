@@ -1,0 +1,263 @@
+{
+  "time" : {
+    "start" : 1469105867670,
+    "stop" : 1469105917721,
+    "duration" : 50051
+  },
+  "testSuites" : [ {
+    "uid" : "c44066ab5bde1681",
+    "name" : "SomeSuite : Valid login test",
+    "title" : "SomeSuite : Valid login test",
+    "time" : {
+      "start" : 1469105867670,
+      "stop" : 1469105882239,
+      "duration" : 14569
+    },
+    "statistic" : {
+      "total" : 4,
+      "passed" : 4,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "3e33bb4cc80fd655",
+      "name" : "openMainPage",
+      "title" : "Open main page",
+      "time" : {
+        "start" : 1469105867670,
+        "stop" : 1469105873921,
+        "duration" : 6251
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "e8c0a564ce7e4773",
+      "name" : "typeEmail[danbravo1@mail.ru]",
+      "title" : "Type email [danbravo1@mail.ru]",
+      "time" : {
+        "start" : 1469105873995,
+        "stop" : 1469105875020,
+        "duration" : 1025
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "d7aab5c37d29a3e9",
+      "name" : "typePass[2342925dan]",
+      "title" : "Type pass [2342925dan]",
+      "time" : {
+        "start" : 1469105875023,
+        "stop" : 1469105875417,
+        "duration" : 394
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "c2eab9b5c2565a12",
+      "name" : "clickSubmitBtn",
+      "title" : "Click submit btn",
+      "time" : {
+        "start" : 1469105875422,
+        "stop" : 1469105882239,
+        "duration" : 6817
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "8d22796d68e99f85",
+    "name" : "SomeSuite : Footer Language buttons test",
+    "title" : "SomeSuite : Footer Language buttons test",
+    "time" : {
+      "start" : 1469105901567,
+      "stop" : 1469105917721,
+      "duration" : 16154
+    },
+    "statistic" : {
+      "total" : 6,
+      "passed" : 6,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "e0c302c39d988b06",
+      "name" : "openMainPage",
+      "title" : "Open main page",
+      "time" : {
+        "start" : 1469105901567,
+        "stop" : 1469105904693,
+        "duration" : 3126
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "cff9eccc28a6b04f",
+      "name" : "verEngLangBtn",
+      "title" : "Ver eng lang btn",
+      "time" : {
+        "start" : 1469105904695,
+        "stop" : 1469105907082,
+        "duration" : 2387
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "8b7a7409d1eed771",
+      "name" : "verPortLangBtn",
+      "title" : "Ver port lang btn",
+      "time" : {
+        "start" : 1469105907086,
+        "stop" : 1469105910204,
+        "duration" : 3118
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "83dcaad2eacefb0b",
+      "name" : "verEspLangBtn",
+      "title" : "Ver esp lang btn",
+      "time" : {
+        "start" : 1469105910207,
+        "stop" : 1469105912773,
+        "duration" : 2566
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "74a38ce6ba710925",
+      "name" : "verFrLangBtn",
+      "title" : "Ver fr lang btn",
+      "time" : {
+        "start" : 1469105912777,
+        "stop" : 1469105915275,
+        "duration" : 2498
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "10fd5dbf01e95deb",
+      "name" : "verRusLangBtn",
+      "title" : "Ver rus lang btn",
+      "time" : {
+        "start" : 1469105915278,
+        "stop" : 1469105917721,
+        "duration" : 2443
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "76fde43bc4d80401",
+    "name" : "SomeSuite : Footer buttons test",
+    "title" : "SomeSuite : Footer buttons test",
+    "time" : {
+      "start" : 1469105885959,
+      "stop" : 1469105898887,
+      "duration" : 12928
+    },
+    "statistic" : {
+      "total" : 8,
+      "passed" : 8,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "e06ca31768fec7ee",
+      "name" : "openMainPage",
+      "title" : "Open main page",
+      "time" : {
+        "start" : 1469105885959,
+        "stop" : 1469105889549,
+        "duration" : 3590
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "6010aa62c6b6f607",
+      "name" : "clickAboutBtn",
+      "title" : "Click about btn",
+      "time" : {
+        "start" : 1469105889557,
+        "stop" : 1469105891732,
+        "duration" : 2175
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "6b049fbec7f53295",
+      "name" : "clickSupportBtn",
+      "title" : "Click support btn",
+      "time" : {
+        "start" : 1469105891740,
+        "stop" : 1469105893188,
+        "duration" : 1448
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "d87754622eb3cb16",
+      "name" : "clickTipsBtn",
+      "title" : "Click tips btn",
+      "time" : {
+        "start" : 1469105893191,
+        "stop" : 1469105894223,
+        "duration" : 1032
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "f48713c46a1554f3",
+      "name" : "clickStoriesBtn",
+      "title" : "Click stories btn",
+      "time" : {
+        "start" : 1469105894227,
+        "stop" : 1469105895376,
+        "duration" : 1149
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "dfceee90d412fcfe",
+      "name" : "clickContactsBtn",
+      "title" : "Click contacts btn",
+      "time" : {
+        "start" : 1469105895380,
+        "stop" : 1469105896556,
+        "duration" : 1176
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "76c2a3ea5046c73a",
+      "name" : "clickPrivacyBtn",
+      "title" : "Click privacy btn",
+      "time" : {
+        "start" : 1469105896560,
+        "stop" : 1469105897879,
+        "duration" : 1319
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "79d4ae9820741313",
+      "name" : "clickPartnersBtn",
+      "title" : "Click partners btn",
+      "time" : {
+        "start" : 1469105897882,
+        "stop" : 1469105898887,
+        "duration" : 1005
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

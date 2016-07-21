@@ -1,0 +1,6 @@
+tests\TestDir\FTest.class
+tests\TestDir\SomeTest.class
+tests\TestDir\SomeTestTwo.class
+tests\TestDir\TestFactory.class
+tests\TestDir\SomeTestThree.class
+tests\TestDir\DependencyTest.class

@@ -1,0 +1,65 @@
+{
+  "uid" : "dfceee90d412fcfe",
+  "name" : "clickContactsBtn",
+  "title" : "Click contacts btn",
+  "time" : {
+    "start" : 1469105895380,
+    "stop" : 1469105896556,
+    "duration" : 1176
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "76fde43bc4d80401",
+    "name" : "SomeSuite : Footer buttons test",
+    "title" : "SomeSuite : Footer buttons test"
+  },
+  "steps" : [ {
+    "name" : "clickContactsBtn",
+    "title" : "Pressing Contacts Button",
+    "time" : {
+      "start" : 1469105895382,
+      "stop" : 1469105896555,
+      "duration" : 1173
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-title",
+    "value" : "SomeSuite : Footer buttons test"
+  }, {
+    "name" : "host",
+    "value" : "SATTVA"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Verifying all footer block option buttons"
+  }, {
+    "name" : "thread",
+    "value" : "10792@SATTVA.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "SomeSuite : Footer buttons test"
+  } ],
+  "parameters" : [ ]
+}

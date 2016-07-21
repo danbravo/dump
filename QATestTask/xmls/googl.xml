@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Google tests" verbose="1" parallel="false">
+    <parameter name="browser" value="FF"/>
+    <test name="logo test">
+        <classes>
+            <class name="apiTests.googleTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="18" passed="18">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SomeSuite" duration-ms="56278" started-at="2016-07-21T12:57:42Z" finished-at="2016-07-21T12:58:39Z">
+    <groups>
+    </groups>
+    <test name="Valid login test" duration-ms="21234" started-at="2016-07-21T12:57:42Z" finished-at="2016-07-21T12:58:03Z">
+      <class name="LogInTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:LogInTest@260a3a5e]" name="setUp" is-config="true" duration-ms="4549" started-at="2016-07-21T15:57:42Z" finished-at="2016-07-21T15:57:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CH]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openMainPage()[pri:0, instance:LogInTest@260a3a5e]" name="openMainPage" duration-ms="6295" started-at="2016-07-21T15:57:47Z" finished-at="2016-07-21T15:57:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openMainPage -->
+        <test-method status="PASS" signature="typeEmail(java.lang.String)[pri:1, instance:LogInTest@260a3a5e]" name="typeEmail" duration-ms="1036" started-at="2016-07-21T15:57:53Z" finished-at="2016-07-21T15:57:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[danbravo1@mail.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typeEmail -->
+        <test-method status="PASS" signature="typePass(java.lang.String)[pri:2, instance:LogInTest@260a3a5e]" name="typePass" duration-ms="395" started-at="2016-07-21T15:57:55Z" finished-at="2016-07-21T15:57:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2342925dan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typePass -->
+        <test-method status="PASS" signature="clickSubmitBtn()[pri:3, instance:LogInTest@260a3a5e]" name="clickSubmitBtn" duration-ms="6819" started-at="2016-07-21T15:57:55Z" finished-at="2016-07-21T15:58:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSubmitBtn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:LogInTest@260a3a5e]" name="tearDown" is-config="true" duration-ms="1742" started-at="2016-07-21T15:58:02Z" finished-at="2016-07-21T15:58:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- LogInTest -->
+    </test> <!-- Valid login test -->
+    <test name="Footer buttons test" duration-ms="15553" started-at="2016-07-21T12:58:04Z" finished-at="2016-07-21T12:58:19Z">
+      <class name="FooterTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:FooterTest@5d7ca698]" name="setUp" is-config="true" duration-ms="1627" started-at="2016-07-21T15:58:04Z" finished-at="2016-07-21T15:58:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CH]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openMainPage()[pri:0, instance:FooterTest@5d7ca698]" name="openMainPage" duration-ms="3591" started-at="2016-07-21T15:58:05Z" finished-at="2016-07-21T15:58:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openMainPage -->
+        <test-method status="PASS" signature="clickAboutBtn()[pri:1, instance:FooterTest@5d7ca698]" name="clickAboutBtn" duration-ms="2180" started-at="2016-07-21T15:58:09Z" finished-at="2016-07-21T15:58:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAboutBtn -->
+        <test-method status="PASS" signature="clickSupportBtn()[pri:2, instance:FooterTest@5d7ca698]" name="clickSupportBtn" duration-ms="1448" started-at="2016-07-21T15:58:11Z" finished-at="2016-07-21T15:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSupportBtn -->
+        <test-method status="PASS" signature="clickTipsBtn()[pri:3, instance:FooterTest@5d7ca698]" name="clickTipsBtn" duration-ms="1033" started-at="2016-07-21T15:58:13Z" finished-at="2016-07-21T15:58:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickTipsBtn -->
+        <test-method status="PASS" signature="clickStoriesBtn()[pri:4, instance:FooterTest@5d7ca698]" name="clickStoriesBtn" duration-ms="1151" started-at="2016-07-21T15:58:14Z" finished-at="2016-07-21T15:58:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickStoriesBtn -->
+        <test-method status="PASS" signature="clickContactsBtn()[pri:5, instance:FooterTest@5d7ca698]" name="clickContactsBtn" duration-ms="1177" started-at="2016-07-21T15:58:15Z" finished-at="2016-07-21T15:58:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickContactsBtn -->
+        <test-method status="PASS" signature="clickPrivacyBtn()[pri:6, instance:FooterTest@5d7ca698]" name="clickPrivacyBtn" duration-ms="1320" started-at="2016-07-21T15:58:16Z" finished-at="2016-07-21T15:58:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickPrivacyBtn -->
+        <test-method status="PASS" signature="clickPartnersBtn()[pri:7, instance:FooterTest@5d7ca698]" name="clickPartnersBtn" duration-ms="1006" started-at="2016-07-21T15:58:17Z" finished-at="2016-07-21T15:58:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickPartnersBtn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:FooterTest@5d7ca698]" name="tearDown" is-config="true" duration-ms="995" started-at="2016-07-21T15:58:18Z" finished-at="2016-07-21T15:58:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- FooterTest -->
+    </test> <!-- Footer buttons test -->
+    <test name="Footer Language buttons test" duration-ms="19085" started-at="2016-07-21T12:58:19Z" finished-at="2016-07-21T12:58:39Z">
+      <class name="LangsTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:LangsTest@24db6ce]" name="setUp" is-config="true" duration-ms="1618" started-at="2016-07-21T15:58:19Z" finished-at="2016-07-21T15:58:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CH]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openMainPage()[pri:0, instance:LangsTest@24db6ce]" name="openMainPage" duration-ms="3128" started-at="2016-07-21T15:58:21Z" finished-at="2016-07-21T15:58:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openMainPage -->
+        <test-method status="PASS" signature="verEngLangBtn()[pri:1, instance:LangsTest@24db6ce]" name="verEngLangBtn" duration-ms="2388" started-at="2016-07-21T15:58:24Z" finished-at="2016-07-21T15:58:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verEngLangBtn -->
+        <test-method status="PASS" signature="verPortLangBtn()[pri:2, instance:LangsTest@24db6ce]" name="verPortLangBtn" duration-ms="3119" started-at="2016-07-21T15:58:27Z" finished-at="2016-07-21T15:58:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verPortLangBtn -->
+        <test-method status="PASS" signature="verEspLangBtn()[pri:3, instance:LangsTest@24db6ce]" name="verEspLangBtn" duration-ms="2567" started-at="2016-07-21T15:58:30Z" finished-at="2016-07-21T15:58:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verEspLangBtn -->
+        <test-method status="PASS" signature="verFrLangBtn()[pri:4, instance:LangsTest@24db6ce]" name="verFrLangBtn" duration-ms="2500" started-at="2016-07-21T15:58:32Z" finished-at="2016-07-21T15:58:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verFrLangBtn -->
+        <test-method status="PASS" signature="verRusLangBtn()[pri:5, instance:LangsTest@24db6ce]" name="verRusLangBtn" duration-ms="2444" started-at="2016-07-21T15:58:35Z" finished-at="2016-07-21T15:58:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verRusLangBtn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:LangsTest@24db6ce]" name="tearDown" is-config="true" duration-ms="1307" started-at="2016-07-21T15:58:37Z" finished-at="2016-07-21T15:58:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- LangsTest -->
+    </test> <!-- Footer Language buttons test -->
+  </suite> <!-- SomeSuite -->
+</testng-results>

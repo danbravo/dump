@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Maven Suite Two" verbose="1" parallel="false">
+    <test name="TaskTwo">
+        <classes>
+            <class name="tests.TestDir.SomeTestTwo"/>
+        </classes>
+    </test>
+</suite>

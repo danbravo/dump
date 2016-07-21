@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1469105884330" stop="1469105899894" version="1.4.22" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>SomeSuite : Footer buttons test</name>
+    <title>SomeSuite : Footer buttons test</title>
+    <test-cases>
+        <test-case start="1469105885959" stop="1469105889549" status="passed">
+            <name>openMainPage</name>
+            <steps>
+                <step start="1469105885963" stop="1469105889549" status="passed">
+                    <name>navMain</name>
+                    <title>Opening main page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Verifying all footer block option buttons"/>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="10792@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1469105889557" stop="1469105891732" status="passed">
+            <name>clickAboutBtn</name>
+            <steps>
+                <step start="1469105889567" stop="1469105891731" status="passed">
+                    <name>clickAboutBtn</name>
+                    <title>Pressing About Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Verifying all footer block option buttons"/>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="10792@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1469105891740" stop="1469105893188" status="passed">
+            <name>clickSupportBtn</name>
+            <steps>
+                <step start="1469105891746" stop="1469105893187" status="passed">
+                    <name>clickSupportBtn</name>
+                    <title>Pressing Support Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Verifying all footer block option buttons"/>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="10792@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1469105893191" stop="1469105894223" status="passed">
+            <name>clickTipsBtn</name>
+            <steps>
+                <step start="1469105893194" stop="1469105894223" status="passed">
+                    <name>clickTipsBtn</name>
+                    <title>Pressing Tips Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Verifying all footer block option buttons"/>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="10792@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1469105894227" stop="1469105895376" status="passed">
+            <name>clickStoriesBtn</name>
+            <steps>
+                <step start="1469105894229" stop="1469105895376" status="passed">
+                    <name>clickStoriesBtn</name>
+                    <title>Pressing Stories Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Verifying all footer block option buttons"/>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="10792@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1469105895380" stop="1469105896556" status="passed">
+            <name>clickContactsBtn</name>
+            <steps>
+                <step start="1469105895382" stop="1469105896555" status="passed">
+                    <name>clickContactsBtn</name>
+                    <title>Pressing Contacts Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Verifying all footer block option buttons"/>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="10792@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1469105896560" stop="1469105897879" status="passed">
+            <name>clickPrivacyBtn</name>
+            <steps>
+                <step start="1469105896562" stop="1469105897878" status="passed">
+                    <name>clickPrivacyBtn</name>
+                    <title>Pressing Privacy Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Verifying all footer block option buttons"/>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="10792@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1469105897882" stop="1469105898887" status="passed">
+            <name>clickPartnersBtn</name>
+            <steps>
+                <step start="1469105897885" stop="1469105898887" status="passed">
+                    <name>clickPartnersBtn</name>
+                    <title>Pressing Partners Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Verifying all footer block option buttons"/>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="10792@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

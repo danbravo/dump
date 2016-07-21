@@ -1,0 +1,8 @@
+Name: dan
+Surname: bravo
+Course: 12
+Credit book number: 123
+Address: 123
+Phone Number: 2342925
+Student ID: 10
+-------------------------------

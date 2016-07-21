@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1469105862779" stop="1469105884024" version="1.4.22" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>SomeSuite : Valid login test</name>
+    <title>SomeSuite : Valid login test</title>
+    <test-cases>
+        <test-case start="1469105867670" stop="1469105873921" status="passed">
+            <name>openMainPage</name>
+            <steps>
+                <step start="1469105867911" stop="1469105873915" status="passed">
+                    <name>navMain</name>
+                    <title>Opening main page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="10792@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1469105873995" stop="1469105875020" status="passed">
+            <name>typeEmail[danbravo1@mail.ru]</name>
+            <steps>
+                <step start="1469105874032" stop="1469105875019" status="passed">
+                    <name>typeEmail[danbravo1@mail.ru]</name>
+                    <title>Typing email in: danbravo1@mail.ru</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="10792@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1469105875023" stop="1469105875417" status="passed">
+            <name>typePass[2342925dan]</name>
+            <steps>
+                <step start="1469105875028" stop="1469105875417" status="passed">
+                    <name>typePass[2342925dan]</name>
+                    <title>Typing password in: 2342925dan</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="10792@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1469105875422" stop="1469105882239" status="passed">
+            <name>clickSubmitBtn</name>
+            <steps>
+                <step start="1469105875425" stop="1469105882238" status="passed">
+                    <name>clickSubmit</name>
+                    <title>Clicking submit button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="10792@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

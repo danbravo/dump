@@ -1,0 +1,6 @@
+Time: Mon Jun 13 19:57:34 EEST 2016
+Test 'tryLogIn' FAILED
+Class: [TestClass name=class tests.NetworksLogInTest]
+Priority of method: 0
+Methods depended upon: []
+

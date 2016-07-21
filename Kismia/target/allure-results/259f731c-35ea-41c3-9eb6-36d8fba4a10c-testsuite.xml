@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1469105899946" stop="1469105919039" version="1.4.22" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>SomeSuite : Footer Language buttons test</name>
+    <title>SomeSuite : Footer Language buttons test</title>
+    <test-cases>
+        <test-case start="1469105901567" stop="1469105904693" status="passed">
+            <name>openMainPage</name>
+            <steps>
+                <step start="1469105901570" stop="1469105904692" status="passed">
+                    <name>navMain</name>
+                    <title>Opening main page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Changing an verifying all language option buttons"/>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="10792@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1469105904695" stop="1469105907082" status="passed">
+            <name>verEngLangBtn</name>
+            <steps>
+                <step start="1469105904698" stop="1469105907082" status="passed">
+                    <name>clickEnglishLangBtn</name>
+                    <title>Pressing English Language Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Changing an verifying all language option buttons"/>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="10792@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1469105907086" stop="1469105910204" status="passed">
+            <name>verPortLangBtn</name>
+            <steps>
+                <step start="1469105907088" stop="1469105910203" status="passed">
+                    <name>clickPortugLangBtn</name>
+                    <title>Pressing Portuguese Language Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Changing an verifying all language option buttons"/>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="10792@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1469105910207" stop="1469105912773" status="passed">
+            <name>verEspLangBtn</name>
+            <steps>
+                <step start="1469105910209" stop="1469105912773" status="passed">
+                    <name>clickEspanLangBtn</name>
+                    <title>Pressing Espanol Language Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Changing an verifying all language option buttons"/>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="10792@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1469105912777" stop="1469105915275" status="passed">
+            <name>verFrLangBtn</name>
+            <steps>
+                <step start="1469105912779" stop="1469105915275" status="passed">
+                    <name>clickFrenchLangBtn</name>
+                    <title>Pressing French Language Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Changing an verifying all language option buttons"/>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="10792@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1469105915278" stop="1469105917721" status="passed">
+            <name>verRusLangBtn</name>
+            <steps>
+                <step start="1469105915282" stop="1469105917721" status="passed">
+                    <name>clickRussianLangBtn</name>
+                    <title>Pressing Russian Language Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Changing an verifying all language option buttons"/>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="10792@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

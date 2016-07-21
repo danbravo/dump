@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [SomeSuite]">
+  <parameter name="browser" value="CH"/>
+  <test name="Valid login test">
+    <classes>
+      <class name="LogInTest"/>
+    </classes>
+  </test> <!-- Valid login test -->
+  <test name="Footer buttons test">
+    <classes>
+      <class name="FooterTest"/>
+    </classes>
+  </test> <!-- Footer buttons test -->
+  <test name="Footer Language buttons test">
+    <classes>
+      <class name="LangsTest"/>
+    </classes>
+  </test> <!-- Footer Language buttons test -->
+</suite> <!-- Failed suite [SomeSuite] -->

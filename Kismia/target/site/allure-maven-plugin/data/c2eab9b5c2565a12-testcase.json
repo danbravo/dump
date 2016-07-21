@@ -1,0 +1,62 @@
+{
+  "uid" : "c2eab9b5c2565a12",
+  "name" : "clickSubmitBtn",
+  "title" : "Click submit btn",
+  "time" : {
+    "start" : 1469105875422,
+    "stop" : 1469105882239,
+    "duration" : 6817
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "c44066ab5bde1681",
+    "name" : "SomeSuite : Valid login test",
+    "title" : "SomeSuite : Valid login test"
+  },
+  "steps" : [ {
+    "name" : "clickSubmit",
+    "title" : "Clicking submit button",
+    "time" : {
+      "start" : 1469105875425,
+      "stop" : 1469105882238,
+      "duration" : 6813
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "10792@SATTVA.main(1)"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-title",
+    "value" : "SomeSuite : Valid login test"
+  }, {
+    "name" : "host",
+    "value" : "SATTVA"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-name",
+    "value" : "SomeSuite : Valid login test"
+  } ],
+  "parameters" : [ ]
+}

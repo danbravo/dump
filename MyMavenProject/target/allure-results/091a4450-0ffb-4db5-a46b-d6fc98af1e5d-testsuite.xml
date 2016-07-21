@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1468948527534" stop="1468948528074" version="1.4.22" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Maven Suite Two : TaskTwo</name>
+    <title>Maven Suite Two : TaskTwo</title>
+    <test-cases>
+        <test-case start="1468948527643" stop="1468948527670" status="passed">
+            <name>test3</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="66448@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1468948528029" stop="1468948528029" status="passed">
+            <name>test4</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="66448@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

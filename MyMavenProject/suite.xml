@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ParentSuite">
+    <suite-files>
+        <suite-file path="xmls/testng.xml"/>
+        <suite-file path="xmls/testng2.xml"/>
+        <suite-file path="xmls/testng3.xml"/>
+    </suite-files>
+</suite>

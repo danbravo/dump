@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-SomeSuite">
+              <span class="suite-name border-passed">SomeSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-SomeSuite">
+                    <span>D:\projects\Kismia\xmls\suite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-SomeSuite">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-SomeSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-SomeSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-SomeSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-SomeSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-SomeSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SomeSuite" class="hide-methods passed suite-SomeSuite"> (hide)</a> <!-- hide-methods passed suite-SomeSuite -->
+                      <a href="#" panel-name="suite-SomeSuite" class="show-methods passed suite-SomeSuite"> (show)</a> <!-- show-methods passed suite-SomeSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-SomeSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SomeSuite" title="FooterTest" hash-for-method="clickAboutBtn">clickAboutBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SomeSuite" title="FooterTest" hash-for-method="clickContactsBtn">clickContactsBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SomeSuite" title="FooterTest" hash-for-method="clickPartnersBtn">clickPartnersBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SomeSuite" title="FooterTest" hash-for-method="clickPrivacyBtn">clickPrivacyBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SomeSuite" title="FooterTest" hash-for-method="clickStoriesBtn">clickStoriesBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SomeSuite" title="LogInTest" hash-for-method="clickSubmitBtn">clickSubmitBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SomeSuite" title="FooterTest" hash-for-method="clickSupportBtn">clickSupportBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SomeSuite" title="FooterTest" hash-for-method="clickTipsBtn">clickTipsBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SomeSuite" title="LogInTest" hash-for-method="openMainPage">openMainPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SomeSuite" title="FooterTest" hash-for-method="openMainPage">openMainPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SomeSuite" title="LangsTest" hash-for-method="openMainPage">openMainPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SomeSuite" title="LogInTest" hash-for-method="typeEmail(danbravo1@mail.ru)">typeEmail(danbravo1@mail.ru)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SomeSuite" title="LogInTest" hash-for-method="typePass(2342925dan)">typePass(2342925dan)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SomeSuite" title="LangsTest" hash-for-method="verEngLangBtn">verEngLangBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SomeSuite" title="LangsTest" hash-for-method="verEspLangBtn">verEspLangBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SomeSuite" title="LangsTest" hash-for-method="verFrLangBtn">verFrLangBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SomeSuite" title="LangsTest" hash-for-method="verPortLangBtn">verPortLangBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SomeSuite" title="LangsTest" hash-for-method="verRusLangBtn">verRusLangBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SomeSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SomeSuite" class="panel SomeSuite">
+          <div class="suite-SomeSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">LogInTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickSubmitBtn">
+                  </a> <!-- clickSubmitBtn -->
+                  <span class="method-name">clickSubmitBtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openMainPage">
+                  </a> <!-- openMainPage -->
+                  <span class="method-name">openMainPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="typeEmail(danbravo1@mail.ru)">
+                  </a> <!-- typeEmail(danbravo1@mail.ru) -->
+                  <span class="method-name">typeEmail</span>
+                  <span class="parameters">(danbravo1@mail.ru)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="typePass(2342925dan)">
+                  </a> <!-- typePass(2342925dan) -->
+                  <span class="method-name">typePass</span>
+                  <span class="parameters">(2342925dan)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SomeSuite-class-passed -->
+          <div class="suite-SomeSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">FooterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickAboutBtn">
+                  </a> <!-- clickAboutBtn -->
+                  <span class="method-name">clickAboutBtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickContactsBtn">
+                  </a> <!-- clickContactsBtn -->
+                  <span class="method-name">clickContactsBtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickPartnersBtn">
+                  </a> <!-- clickPartnersBtn -->
+                  <span class="method-name">clickPartnersBtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickPrivacyBtn">
+                  </a> <!-- clickPrivacyBtn -->
+                  <span class="method-name">clickPrivacyBtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickStoriesBtn">
+                  </a> <!-- clickStoriesBtn -->
+                  <span class="method-name">clickStoriesBtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickSupportBtn">
+                  </a> <!-- clickSupportBtn -->
+                  <span class="method-name">clickSupportBtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickTipsBtn">
+                  </a> <!-- clickTipsBtn -->
+                  <span class="method-name">clickTipsBtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openMainPage">
+                  </a> <!-- openMainPage -->
+                  <span class="method-name">openMainPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SomeSuite-class-passed -->
+          <div class="suite-SomeSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">LangsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="openMainPage">
+                  </a> <!-- openMainPage -->
+                  <span class="method-name">openMainPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verEngLangBtn">
+                  </a> <!-- verEngLangBtn -->
+                  <span class="method-name">verEngLangBtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verEspLangBtn">
+                  </a> <!-- verEspLangBtn -->
+                  <span class="method-name">verEspLangBtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verFrLangBtn">
+                  </a> <!-- verFrLangBtn -->
+                  <span class="method-name">verFrLangBtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verPortLangBtn">
+                  </a> <!-- verPortLangBtn -->
+                  <span class="method-name">verPortLangBtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verRusLangBtn">
+                  </a> <!-- verRusLangBtn -->
+                  <span class="method-name">verRusLangBtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SomeSuite-class-passed -->
+        </div> <!-- panel SomeSuite -->
+        <div panel-name="test-xml-SomeSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\projects\Kismia\xmls\suite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;SomeSuite&quot;&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;CH&quot;/&gt;
+  &lt;test name=&quot;Valid login test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;LogInTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Valid login test --&gt;
+  &lt;test name=&quot;Footer buttons test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;FooterTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Footer buttons test --&gt;
+  &lt;test name=&quot;Footer Language buttons test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;LangsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Footer Language buttons test --&gt;
+&lt;/suite&gt; &lt;!-- SomeSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SomeSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SomeSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Valid login test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Footer buttons test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Footer Language buttons test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SomeSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SomeSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SomeSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SomeSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SomeSuite');
+function tableData_SomeSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'clickSubmitBtn')
+data.setCell(0, 2, 'LogInTest')
+data.setCell(0, 3, 6819);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'openMainPage')
+data.setCell(1, 2, 'LogInTest')
+data.setCell(1, 3, 6295);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'openMainPage')
+data.setCell(2, 2, 'FooterTest')
+data.setCell(2, 3, 3591);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'openMainPage')
+data.setCell(3, 2, 'LangsTest')
+data.setCell(3, 3, 3128);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verPortLangBtn')
+data.setCell(4, 2, 'LangsTest')
+data.setCell(4, 3, 3119);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verEspLangBtn')
+data.setCell(5, 2, 'LangsTest')
+data.setCell(5, 3, 2567);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verFrLangBtn')
+data.setCell(6, 2, 'LangsTest')
+data.setCell(6, 3, 2500);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verRusLangBtn')
+data.setCell(7, 2, 'LangsTest')
+data.setCell(7, 3, 2444);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verEngLangBtn')
+data.setCell(8, 2, 'LangsTest')
+data.setCell(8, 3, 2388);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'clickAboutBtn')
+data.setCell(9, 2, 'FooterTest')
+data.setCell(9, 3, 2180);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'clickSupportBtn')
+data.setCell(10, 2, 'FooterTest')
+data.setCell(10, 3, 1448);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'clickPrivacyBtn')
+data.setCell(11, 2, 'FooterTest')
+data.setCell(11, 3, 1320);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'clickContactsBtn')
+data.setCell(12, 2, 'FooterTest')
+data.setCell(12, 3, 1177);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'clickStoriesBtn')
+data.setCell(13, 2, 'FooterTest')
+data.setCell(13, 3, 1151);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'typeEmail')
+data.setCell(14, 2, 'LogInTest')
+data.setCell(14, 3, 1036);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'clickTipsBtn')
+data.setCell(15, 2, 'FooterTest')
+data.setCell(15, 3, 1033);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'clickPartnersBtn')
+data.setCell(16, 2, 'FooterTest')
+data.setCell(16, 3, 1006);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'typePass')
+data.setCell(17, 2, 'LogInTest')
+data.setCell(17, 3, 395);
+window.suiteTableData['SomeSuite']= { tableData: data, tableDiv: 'times-div-SomeSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 43 seconds</span>
+              <div id="times-div-SomeSuite">
+              </div> <!-- times-div-SomeSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SomeSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SomeSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SomeSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SomeSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">LogInTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(CH)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">openMainPage</span>
+                <span class="method-start">4837 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">typeEmail(danbravo1@mail.ru)</span>
+                <span class="method-start">11200 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">typePass(2342925dan)</span>
+                <span class="method-start">12239 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickSubmitBtn</span>
+                <span class="method-start">12636 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">19461 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">FooterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(CH)</span>
+                <span class="method-start">21547 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">openMainPage</span>
+                <span class="method-start">23175 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickAboutBtn</span>
+                <span class="method-start">26768 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickSupportBtn</span>
+                <span class="method-start">28956 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickTipsBtn</span>
+                <span class="method-start">30407 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickStoriesBtn</span>
+                <span class="method-start">31442 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickContactsBtn</span>
+                <span class="method-start">32595 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickPrivacyBtn</span>
+                <span class="method-start">33775 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickPartnersBtn</span>
+                <span class="method-start">35098 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">36105 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">LangsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(CH)</span>
+                <span class="method-start">37163 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">openMainPage</span>
+                <span class="method-start">38781 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verEngLangBtn</span>
+                <span class="method-start">41911 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verPortLangBtn</span>
+                <span class="method-start">44301 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verEspLangBtn</span>
+                <span class="method-start">47423 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verFrLangBtn</span>
+                <span class="method-start">49992 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verRusLangBtn</span>
+                <span class="method-start">52494 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">54940 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

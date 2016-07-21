@@ -1,0 +1,62 @@
+{
+  "uid" : "3e33bb4cc80fd655",
+  "name" : "openMainPage",
+  "title" : "Open main page",
+  "time" : {
+    "start" : 1469105867670,
+    "stop" : 1469105873921,
+    "duration" : 6251
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "c44066ab5bde1681",
+    "name" : "SomeSuite : Valid login test",
+    "title" : "SomeSuite : Valid login test"
+  },
+  "steps" : [ {
+    "name" : "navMain",
+    "title" : "Opening main page",
+    "time" : {
+      "start" : 1469105867911,
+      "stop" : 1469105873915,
+      "duration" : 6004
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "SomeSuite : Valid login test"
+  }, {
+    "name" : "suite-title",
+    "value" : "SomeSuite : Valid login test"
+  }, {
+    "name" : "host",
+    "value" : "SATTVA"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "10792@SATTVA.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  } ],
+  "parameters" : [ ]
+}

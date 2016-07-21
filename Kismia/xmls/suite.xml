@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SomeSuite" verbose="1" parallel="false">
+    <parameter name="browser" value="CH"/>
+    <test name="Valid login test">
+        <classes>
+            <class name="LogInTest"/>
+        </classes>
+    </test>
+    <test name="Footer buttons test">
+        <classes>
+            <class name="FooterTest"/>
+        </classes>
+    </test>
+    <test name="Footer Language buttons test">
+        <classes>
+            <class name="LangsTest"/>
+        </classes>
+    </test>
+</suite>

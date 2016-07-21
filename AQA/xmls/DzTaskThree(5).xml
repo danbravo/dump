@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Task Three Suite">
+    <test name="TaskThree firstParam">
+        <parameter name="firstName" value="Man"/>
+        <classes>
+            <class name="Lesson11.DzTaskThree">
+                <methods>
+                    <include name="test1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="TaskThree secondParam">
+        <parameter name="firstName" value="Fan"/>
+        <classes>
+            <class name="Lesson11.DzTaskThree">
+                <methods>
+                    <include name="test1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="TaskThree thirdParam">
+        <parameter name="firstName" value="Pen"/>
+        <classes>
+            <class name="Lesson11.DzTaskThree">
+                <methods>
+                    <include name="test1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

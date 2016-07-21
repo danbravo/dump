@@ -1,0 +1,62 @@
+{
+  "uid" : "d7aab5c37d29a3e9",
+  "name" : "typePass[2342925dan]",
+  "title" : "Type pass [2342925dan]",
+  "time" : {
+    "start" : 1469105875023,
+    "stop" : 1469105875417,
+    "duration" : 394
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "c44066ab5bde1681",
+    "name" : "SomeSuite : Valid login test",
+    "title" : "SomeSuite : Valid login test"
+  },
+  "steps" : [ {
+    "name" : "typePass[2342925dan]",
+    "title" : "Typing password in: 2342925dan",
+    "time" : {
+      "start" : 1469105875028,
+      "stop" : 1469105875417,
+      "duration" : 389
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "10792@SATTVA.main(1)"
+  }, {
+    "name" : "host",
+    "value" : "SATTVA"
+  }, {
+    "name" : "suite-title",
+    "value" : "SomeSuite : Valid login test"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-name",
+    "value" : "SomeSuite : Valid login test"
+  } ],
+  "parameters" : [ ]
+}

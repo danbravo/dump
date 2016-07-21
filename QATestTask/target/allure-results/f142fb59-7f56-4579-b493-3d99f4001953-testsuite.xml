@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1469003657850" stop="1469003666692" version="1.4.22" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Google tests : logo test</name>
+    <title>Google tests : logo test</title>
+    <test-cases>
+        <test-case start="1469003662735" stop="1469003664311" status="passed">
+            <name>logoVerify</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="SATTVA"/>
+                <label name="thread" value="75464@SATTVA.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

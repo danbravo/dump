@@ -1,0 +1,3 @@
+apiTests\DeleteDocument.class
+apiTests\GetDocuments.class
+apiTests\CreateDocument.class
